@@ -49,8 +49,9 @@ nav a:hover {
 }
 
 article p {
-    text-align: justify;
+    text-align: left;
     margin-right: 10px;
+    font-size: 2vh;
 }
 
 footer {
@@ -102,22 +103,16 @@ footer a:hover {
     background-color: var(--cor3);
 }
 
-/* .imagem img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
-
 .container {
     clear: both;
-    background-color: var(--cor2);    
+    background-color: var(--cor3);    
 }
 
-.container img {
-    float: left;
+.container img {    
+    margin-left: 5px;
     margin-right: 15px; /* Espaçamento entre a imagem e o texto */    
-    width: 50%;
-    height: 50%;
+    width: 180px;    
+    border-radius: 140px;
 }
 
 .video {
@@ -133,3 +128,63 @@ main img {
     padding-bottom: 10px;
     text-align: center;
 }
+
+.redes-sociais {
+    margin-top: 10px;    
+}
+
+.redes-sociais a {
+    text-decoration: none;
+    color:white;
+    margin: 10px;
+    font-size: 35px;    
+    display: flex;
+}
+
+.redes-sociais a:hover {
+    color: var(--cor1);
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--cor3);
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.445);
+  }
+
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 12px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    resize: vertical;
+  }
