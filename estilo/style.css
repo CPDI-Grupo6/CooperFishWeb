@@ -9,7 +9,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.8em;
+    
 }
 
 h1, h2, h3{
@@ -18,6 +18,7 @@ h1, h2, h3{
     padding-left: 15px;
     padding-top: 3px;
     padding-bottom: 3px;
+    font-size: 1.1em;
 }
 
 header {
@@ -50,9 +51,13 @@ nav a:hover {
 }
 
 article p {
-    text-align: left;
+    text-align: justify;
     margin-right: 10px;
+    margin-left: 5px;
     font-size: 2vh;
+    text-indent: 8px; 
+    display: inline;
+    width: 300px;   
 }
 
 footer {
@@ -88,9 +93,9 @@ footer a:hover {
     max-height: 80px;
 }
 
-.container {
+/* .container {
     display: flex;    
-}
+} */
 
 .imagem {
     width: 300px;
@@ -106,7 +111,9 @@ footer a:hover {
 
 .container {
     clear: both;
-    background-color: var(--cor3);    
+    background-color: var(--cor3); 
+    margin-bottom: 20px;
+    overflow: hidden;   
 }
 
 .container img {    
@@ -115,6 +122,8 @@ footer a:hover {
     width: 200px;    
     height: 200px;
     border-radius: 140px;
+    float: left;
+    margin-right: 10px;
 }
 
 .video {
@@ -129,10 +138,12 @@ main img {
     padding-top: 10px;
     padding-bottom: 10px;
     text-align: center;
+    display: block;
 }
 
 .redes-sociais {
-    margin-top: 10px;    
+    margin-top: 10px;
+    display: block;    
 }
 
 .redes-sociais a {
@@ -140,7 +151,7 @@ main img {
     color:white;
     margin: 10px;
     font-size: 35px;    
-    display: flex;
+    
 }
 
 .redes-sociais a:hover {
