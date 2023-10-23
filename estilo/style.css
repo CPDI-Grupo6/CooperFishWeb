@@ -12,13 +12,22 @@ body {
     
 }
 
-h1, h2, h3{
+h1, h2 {
     background-color: var(--cor1);
     color: white;
     padding-left: 15px;
     padding-top: 3px;
     padding-bottom: 3px;
     font-size: 1.1em;
+}
+
+h3 {
+    color: white;
+    background-color: var(--cor2);
+    font-size: 0.9em;
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 header {
@@ -201,3 +210,5 @@ form {
   textarea {
     resize: vertical;
   }
+
+ 
